@@ -11,8 +11,8 @@ const cancelButton = document.getElementById(
 startButton.addEventListener('click', (event) => {
   event.preventDefault()
 
-  transitionElement.style.width = '200px'
-  transitionElement.style.height = '200px'
+  transitionElement.style.width = '300px'
+  transitionElement.style.height = '300px'
 })
 
 cancelButton.addEventListener('click', (event) => {

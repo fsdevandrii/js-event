@@ -14,6 +14,7 @@ document.addEventListener('visibilitychange', (e) => {
   } else {
     visibilityStatus.textContent =
       'Статус видимості: Відображено'
+
     alert('Стан видимості: Відображено')
   }
 })

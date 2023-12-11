@@ -13,7 +13,7 @@ textInput.addEventListener('keypress', (event) => {
   console.log(
     `Була утримана клавіша "${event.key}" (код: ${event.code})`,
   )
-  console.log(event)
+  // console.log(event)
 })
 
 // Додаємо обробник події для keyup

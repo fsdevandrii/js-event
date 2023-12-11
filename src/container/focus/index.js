@@ -1,12 +1,12 @@
 const focusInput = document.getElementById('focusInput')
 const focusMessage = document.getElementById('focusMessage')
 
-// Обробник події "focusin"
-focusInput.addEventListener('focusin', () => {
-  focusMessage.textContent =
-    'Елемент отримав фокус (focusin)'
-  focusMessage.style.color = 'green'
-})
+// // Обробник події "focusin"
+// focusInput.addEventListener('focusin', () => {
+//   focusMessage.textContent =
+//     'Елемент отримав фокус (focusin)'
+//   focusMessage.style.color = 'green'
+// })
 
 // Обробник події "focus"
 focusInput.addEventListener('focus', () => {
@@ -20,9 +20,15 @@ focusInput.addEventListener('blur', () => {
   focusMessage.style.color = 'red'
 })
 
-// Обробник події "focusout"
-focusInput.addEventListener('focusout', () => {
-  focusMessage.textContent =
-    'Елемент втратив фокус (focusout)'
-  focusMessage.style.color = 'orange'
-})
+// // Обробник події "focusout"
+// focusInput.addEventListener('focusout', () => {
+//   focusMessage.textContent =
+//     'Елемент втратив фокус (focusout)'
+//   focusMessage.style.color = 'orange'
+// })
+
+// document
+//   .querySelector('.form__group')
+//   .addEventListener('focus', () => {
+//     alert('focusin')
+//   })
